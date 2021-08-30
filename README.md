@@ -6,23 +6,23 @@ class Swap_With {  
 
     public static void main(String[] args) {  
 
-       int x, y, t;   
+       int x, y, temp;   
 
-       Scanner sc = new Scanner(System.in);  
+       Scanner input = new Scanner(System.in);  
 
        System.out.println("Enter the value of X and Y");  
 
-       x = sc.nextInt();  
+       x = input.nextInt();  
 
-       y = sc.nextInt();  
+       y = input.nextInt();  
 
-       System.out.println("before swapping numbers: "+x +"  "+ y);  
+       System.out.println("Before swapping numbers: "+x +"  "+ y);  
 
-       t = x;  
+       temp = x;  
 
        x = y;  
 
-       y = t;  
+       y = temp;  
 
        System.out.println("After swapping: "+x +"   " + y);  
 
